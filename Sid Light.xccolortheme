@@ -28,8 +28,8 @@
 	<string>1 0.951641 0.63943 1</string>
 	<key>DVTConsoleTextSelectionColor</key>
 	<string>0.496 0.496 0.378 1</string>
-	<key>DVTDebuggerInstructionPointerColor</key>
-	<string>0.12 0.31 0.34 1</string>
+	<key>DVTFontAndColorVersion</key>
+	<integer>1</integer>
 	<key>DVTLineSpacing</key>
 	<real>1.1000000238418579</real>
 	<key>DVTMarkupTextBackgroundColor</key>
@@ -41,33 +41,33 @@
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>0.918473 0.918473 0.918473 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
-	<string>.SFNSText-Italic - 13.0</string>
+	<string>.SFNS-RegularItalic - 10.0</string>
 	<key>DVTMarkupTextInlineCodeColor</key>
 	<string>0.918473 0.918473 0.918473 0.7</string>
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.1 0.1 0.819 1</string>
 	<key>DVTMarkupTextLinkFont</key>
-	<string>.SFNSText - 13.0</string>
+	<string>.SFNS-Regular - 10.0</string>
 	<key>DVTMarkupTextNormalColor</key>
 	<string>0.918473 0.918473 0.918473 1</string>
 	<key>DVTMarkupTextNormalFont</key>
-	<string>.SFNSText - 13.0</string>
+	<string>.SFNS-Regular - 10.0</string>
 	<key>DVTMarkupTextOtherHeadingColor</key>
 	<string>0.918473 0.918473 0.918473 0.5</string>
 	<key>DVTMarkupTextOtherHeadingFont</key>
-	<string>.SFNSText - 18.2</string>
+	<string>.SFNS-Regular - 14.0</string>
 	<key>DVTMarkupTextPrimaryHeadingColor</key>
 	<string>0.918473 0.918473 0.918473 1</string>
 	<key>DVTMarkupTextPrimaryHeadingFont</key>
-	<string>.SFNSDisplay - 31.2</string>
+	<string>.SFNS-Regular - 24.0</string>
 	<key>DVTMarkupTextSecondaryHeadingColor</key>
 	<string>0.918473 0.918473 0.918473 1</string>
 	<key>DVTMarkupTextSecondaryHeadingFont</key>
-	<string>.SFNSDisplay - 23.4</string>
+	<string>.SFNS-Regular - 18.0</string>
 	<key>DVTMarkupTextStrongColor</key>
 	<string>0.918473 0.918473 0.918473 1</string>
 	<key>DVTMarkupTextStrongFont</key>
-	<string>.SFNSText-Bold - 13.0</string>
+	<string>.SFNS-Bold - 10.0</string>
 	<key>DVTScrollbarMarkerAnalyzerColor</key>
 	<string>0.403922 0.372549 1 1</string>
 	<key>DVTScrollbarMarkerBreakpointColor</key>
@@ -106,6 +106,10 @@
 		<string>0.511076 0.582281 0.513335 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>0.511076 0.582281 0.513335 1</string>
+		<key>xcode.syntax.declaration.other</key>
+		<string>0.0588235 0.407843 0.627451 1</string>
+		<key>xcode.syntax.declaration.type</key>
+		<string>0.0431373 0.309804 0.47451 1</string>
 		<key>xcode.syntax.identifier.class</key>
 		<string>0 0.567412 0.836957 1</string>
 		<key>xcode.syntax.identifier.class.system</key>
@@ -132,12 +136,26 @@
 		<string>0.564855 0.489383 0.035586 1</string>
 		<key>xcode.syntax.keyword</key>
 		<string>0.940217 0.0419194 0.897269 1</string>
+		<key>xcode.syntax.mark</key>
+		<string>0.290196 0.333333 0.376471 1</string>
+		<key>xcode.syntax.markup.code</key>
+		<string>0.665 0.052 0.569 1</string>
 		<key>xcode.syntax.number</key>
 		<string>0.469 0.426 0.77 1</string>
 		<key>xcode.syntax.plain</key>
 		<string>0.0675707 0.0675834 0.0675676 1</string>
 		<key>xcode.syntax.preprocessor</key>
 		<string>0.778 0.488 0.284 1</string>
+		<key>xcode.syntax.regex</key>
+		<string>0.77 0.102 0.086 1</string>
+		<key>xcode.syntax.regex.capturename</key>
+		<string>0.194184 0.429349 0.454553 1</string>
+		<key>xcode.syntax.regex.charname</key>
+		<string>0.421903 0.212783 0.663785 1</string>
+		<key>xcode.syntax.regex.number</key>
+		<string>0.11 0 0.81 1</string>
+		<key>xcode.syntax.regex.other</key>
+		<string>0 0 0 0.85</string>
 		<key>xcode.syntax.string</key>
 		<string>0.859 0.171 0.219 1</string>
 		<key>xcode.syntax.url</key>
@@ -155,6 +173,10 @@
 		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>SFMono-Semibold - 11.0</string>
+		<key>xcode.syntax.declaration.other</key>
+		<string>SFMono-Regular - 11.0</string>
+		<key>xcode.syntax.declaration.type</key>
+		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.class</key>
 		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
@@ -181,11 +203,25 @@
 		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.keyword</key>
 		<string>SFMono-Semibold - 11.0</string>
+		<key>xcode.syntax.mark</key>
+		<string>SFMono-Bold - 11.0</string>
+		<key>xcode.syntax.markup.code</key>
+		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.number</key>
 		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.plain</key>
 		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.preprocessor</key>
+		<string>SFMono-Regular - 11.0</string>
+		<key>xcode.syntax.regex</key>
+		<string>SFMono-Regular - 11.0</string>
+		<key>xcode.syntax.regex.capturename</key>
+		<string>SFMono-Regular - 11.0</string>
+		<key>xcode.syntax.regex.charname</key>
+		<string>SFMono-Regular - 11.0</string>
+		<key>xcode.syntax.regex.number</key>
+		<string>SFMono-Regular - 11.0</string>
+		<key>xcode.syntax.regex.other</key>
 		<string>SFMono-Regular - 11.0</string>
 		<key>xcode.syntax.string</key>
 		<string>SFMono-Regular - 11.0</string>
