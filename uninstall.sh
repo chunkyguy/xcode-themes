@@ -2,7 +2,7 @@
 
 theme_dir=~/Library/Developer/Xcode/UserData/FontAndColorThemes
 
-for theme in *.dvtcolortheme; do
+for theme in *.xccolortheme; do
 	path=$theme_dir/$theme
 	if [[ -f "$path" ]]; then
 		echo "removing theme file $theme"
